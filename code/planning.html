@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Boutique Lascaux - Planning</title>
+        <link rel="icon" href="img/logo.png" type="image/jpg">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:wght@400;600&display=swap">
+    </head>
+
+    <body>
+        <header>
+            <div class="logohead">
+                <a href="index.html"><img src="img/logo.png"  alt="Boutique Lascaux – Accueil"/></a>
+                <a href="index.html"><h3>Boutique Lascaux</h3></a>
+            </div>
+            <div class="navhead">
+                <nav>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="index.html">Accueil</a>
+                        <a href="planning.html">Planning</a>
+                        <a href="conseil_location.html">Conseils</a>
+                        <a href="lien_exo.html">Exercices</a>
+                        </div>
+                    </div>
+                </nav>                
+            </div>
+        </header>
+
+        <div id="content">
+
+            <main>
+                <h2>Emploi du temps</h2>
+                <!-- Calendar Container -->
+                <div class="calendar">
+                    <!-- Month and Year Header -->
+                    <div class="calendar-header">Janvier 2026</div>
+
+                    <!-- Days of the Week -->
+                    <div class="calendar-days">
+                        <div>Lun</div>
+                        <div>Mar</div>
+                        <div>Mer</div>
+                        <div>Jeu</div>
+                        <div>Ven</div>
+                        <div>Sam</div>
+                        <div>Dim</div>
+                    </div>
+
+                    <!-- Calendar Dates -->
+                    <div class="calendar-dates">
+                        <!-- Blank spaces for days before the month starts on Friday -->
+                        <div></div> <div></div> <div></div> <div>1 - <em>Atelier découverte du dessin</em></div> <div>2</div> <div>3 - <em>Stage croquis & dessin d’observation</em></div> <div>4</div> <div>5</div> <div class="today">6</div> <div>7</div> <div>8 -<em>Atelier valeurs et ombrages</em></div> <div>9</div> <div>10 -<em>Initiation à la peinture (acrylique)</em></div> <div>11</div> <div>12</div> <div>13</div> <div>14</div> <div>15 -<em>Atelier formes & perspectives</em></div> <div>16</div> <div>17 -<em>Initiation à l’anatomie – corps humain</em></div> <div>18</div> <div>19</div> <div>20</div> <div>21</div><div>22 -<em>Atelier composition d’image</em></div> <div>23</div> <div>24 -<em>Découverte du dessin numérique</em></div> <div>25</div> <div>26</div> <div>27</div> <div>28</div> <div>29 -<em>Session entraînement libre encadrée</em></div> <div>30</div> <div>31 -<em>Atelier créatif – projet personnel</em></div> <div></div>
+                    </div>
+                </div>
+
+                <h2>Inscription aux ateliers</h2>
+                <!-- Formulaire inscription -->
+                <form>
+                    <div class="container">
+                        <label><b>Nom</b></label>
+                        <input type="text" placeholder="Entrer votre nom" required>
+
+                        <label><b>Prénom</b></label>
+                        <input type="text" placeholder="Entrer prénom" required>
+
+                        <label><b>Mail</b></label>
+                        <input type="email" placeholder="Entrer votre mail" required>
+
+                        <label>Date</label>
+                        <input type="date" required>
+                            
+                        <button>S'incrire</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+                        </label>
+                    </div>
+                </form>
+            </main>
+
+            <aside>
+                <section class="evenements">
+                    <h2>Évenements</h2>
+                    <div>
+                        <article>
+                            <img src="img/logo.png" alt="Boutique Lascaux">
+                            <h3>Atelier découverte du dessin</h3>
+                            <p>
+                                Un atelier accessible à tous pour s’initier aux bases du dessin. Apprenez à observer, tracer et vous exprimer librement, même sans aucune expérience préalable.
+                            </p>
+                        </article>
+
+                        <article>
+                            <img src="img/logo.png" alt="Boutique Lascaux">
+                            <h3>Stage croquis & dessin d’observation</h3>
+                            <p>
+                                Un stage pratique pour développer votre sens de l’observation à travers le croquis. Travail sur le vif, proportions et regard artistique pour progresser rapidement.
+                            </p>
+                        </article>
+
+                        <article>
+                            <img src="img/logo.png" alt="Boutique Lascaux">
+                            <h3>Atelier valeurs et ombrages</h3>
+                            <p>
+                                Découvrez comment donner du volume et de la profondeur à vos dessins grâce aux valeurs et aux ombrages. Un atelier idéal pour rendre vos créations plus réalistes et expressives.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+        <footer>
+            <div>
+                <a href="index.html"><img src="img/logo.png" alt="Boutique Lascaux – Accueil"/></a>
+                <nav>
+                    <a href="index.html" class="link-underline">Acceuil</a>
+                    <a href="planning.html" class="link-underline">Planning</a>
+                    <a href="conseil_location.html" class="link-underline">Conseils</a>
+                    <a href="lien_exo.html" class="link-underline">Exercices</a>
+                </nav>
+                <!--logo reseaux-->
+                <div class="reseaux">
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Boutique lascaux. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </body>
+</html>

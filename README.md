@@ -94,8 +94,8 @@ Ce dépôt a pour objectif de **présenter le projet dans un cadre académique e
 
 ## Documents
 Les documents associés au projet sont disponibles à la racine du dépôt :
-- `consignes_SAE_1.05.pdf` : consignes officielles de la SAE
-- `compte_rendu_SAE_1.05.pdf` : compte rendu du projet (analyse et conception)
+- `consignes.pdf` : consignes officielles de la SAE
+- `compte_rendu.pdf` : compte rendu du projet (analyse et conception)
 
 ---
 
